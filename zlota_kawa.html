@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Złota Kawa - Меню</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            font-size: 3em;
+            color: #8B4513;
+            margin-bottom: 5px;
+        }
+
+        .menu-title {
+            text-align: center;
+            font-style: italic;
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+
+        .menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .menu-column {
+            width: 48%;
+        }
+
+        .menu-column h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #D2B48C;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #5C4033;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-weight: bold;
+            flex-grow: 1;
+        }
+
+        .item-price {
+            margin-left: 10px;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>Złota Kawa</h1>
+        <div class="menu-title">Menu</div>
+
+        <div class="menu-section">
+            <div class="menu-column">
+                <h2>Kawa Vergmana 1882</h2>
+                <div class="menu-item">
+                    <span class="item-name">Espresso</span>
+                    <span class="item-price">9 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Double Espresso</span>
+                    <span class="item-price">14 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa Flat Wait</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa Crema</span>
+                    <span class="item-price">16 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa Czarna</span>
+                    <span class="item-price">12 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa biała</span>
+                    <span class="item-price">14 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa Affogato</span>
+                    <span class="item-price">16 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa Affogato Pistacjowe</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Cappuccino</span>
+                    <span class="item-price">15 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Cappuccino Creme Briule</span>
+                    <span class="item-price">22 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kawa Włoska Beza</span>
+                    <span class="item-price">22 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Latte</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Latte Sezonowe</span>
+                    <span class="item-price">20 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Latte Pistacjowe</span>
+                    <span class="item-price">25 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Latte Dubajska czekolada</span>
+                    <span class="item-price">25 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Iced Latte</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Iced Orange Espresso</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Iced Tonik Espresso</span>
+                    <span class="item-price">16 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Gorąca Czekolada z bitą śmietaną marshmallow</span>
+                    <span class="item-price">16 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kakao na mleku z bitą śmietaną marshmallow</span>
+                    <span class="item-price">14 zł</span>
+                </div>
+            </div>
+
+            <div class="menu-column">
+                <h2>Kolekcja herbat Palmira</h2>
+                <div class="menu-item">
+                    <span class="item-name">CENA KAŻDEJ HERBATY:</span>
+                    <span class="item-price">12,00 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Raspberry Dream</span>
+                    <span class="item-price">(owocowa herbata o aromacie malin, gruszek i jabłek)</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Champagne Splashes</span>
+                    <span class="item-price">(mieszanka czarnej i zielonej herbaty z nutami owoców)</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Royal Dessert</span>
+                    <span class="item-price">(deserowa kompozycja owocowo-jagodowa)</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Earl Grey</span>
+                    <span class="item-price">(klasyczna czarna herbata z naturalnym bergamotem)</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Alpine Field</span>
+                    <span class="item-price">(ziołowa herbata z rumienkiem lipą i miętą)</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">English Breakfast</span>
+                    <span class="item-price">(mocna czarna herbata idealna na śniadanie)</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Gunpowder</span>
+                    <span class="item-price">(tradycyjna chińska zielона)</span>
+                </div>
+            
+                <h2>Matcha</h2>
+                <div class="menu-item">
+                    <span class="item-name">Matcha Sezonowa</span>
+                    <span class="item-price">20 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Matcha Tonik</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Matcha Orange</span>
+                    <span class="item-price">18 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Matcha Pistacjowa</span>
+                    <span class="item-price">25 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Matcha Mango</span>
+                    <span class="item-price">20 zł</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Matcha Kokosowa</span>
+                    <span class="item-price">20 zł</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
